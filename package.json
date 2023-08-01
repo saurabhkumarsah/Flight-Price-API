@@ -1,0 +1,18 @@
+{
+  "name": "flight_price_api",
+  "version": "1.0.0",
+  "description": "Show price of flight between two cities.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "saurabh sah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  }
+}
